@@ -25,3 +25,5 @@ const sudoku = (sum, cnt, c, lim) => {
 for (let l = 1; l < 10; l ++)
   for (let k = 1; k <= 45; k ++)
     sudoku(k,0,1,l);
+
+// created by Hu Zheng
