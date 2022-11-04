@@ -1,3 +1,4 @@
+// This cases are used for sudoku killer game.
 const num = new Array();
 
 const arr_sum = (arr) => {
@@ -7,6 +8,7 @@ const arr_sum = (arr) => {
   }, 0)
 }
 
+// Used recursive function for sudoku killer sum
 const sudoku = (sum, cnt, c, lim) => {
   if (cnt == lim){
     if (sum == arr_sum(num)){
